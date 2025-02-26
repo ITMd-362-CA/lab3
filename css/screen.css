@@ -27,6 +27,7 @@ textarea {
   margin: 0; /* 2 */
 }
 
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -226,7 +227,7 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 6px 1px;
-  width: 100%; /*Making width 100% ensures responsiveness*/
+  width: 95%; /*Ensures responsiveness*/
   background-color: #505050; /*Grey background for input fields*/
   border-radius: 6px; /*Rounded borders makes form look more modern.*/
   padding: 14px 18px;/*Padding for inputs and buttons*/
