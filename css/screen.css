@@ -216,7 +216,7 @@ label {
 /* ===== LAYOUT STYLES ====== */
 
 form {
-  background-color: #505050;
+  background-color: #787878;
   width: 70%; /*Wanted to have the box not take up the whole screen*/
   border-radius: 6px;/*Want the same border radius as my info inside the form*/
   padding: 7px 10px;
@@ -225,7 +225,7 @@ form {
 
 label {
   display: block;
-  color: #F0F0F0;
+  font-size: 1.2em;
 }
 
 button,
@@ -248,21 +248,27 @@ h1 {
   font-size: 3.5em; /*Major Sixth ratio for font size*/
   line-height: 1.2;
   margin-bottom: 15px;
-  color: #F0F0F0;
 }
 
 p {
-  color: #F0F0F0;
   padding: 0 0 0 10px;
 }
 
 #input-age-verification {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
-[type="checkbox"] {
-  margin: auto;
+/*Did research to try and find a solution to fix alignment of checkbox and label*/
+#input-age-verification input[type="checkbox"] {
+  margin: 0; /* Remove auto margin causing misalignment */
+  width: auto; /* Prevents stretching */
+}
+
+#input-age-verification label {
+  display: inline; /* Keeps label next to checkbox */
+  font-size: 1em;
 }
 
 /* ===== STATE STYLES ======= */
