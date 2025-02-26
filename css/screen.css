@@ -210,6 +210,13 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 
+form {
+  background-color: gray;
+  width: 70%; /*Wanted to have the box not take up the whole screen*/
+  border-radius: 6px;/*Want the same border radius as my info inside the form*/
+  margin: 0 auto;
+}
+
 button,
 input,
 optgroup,
@@ -225,3 +232,6 @@ textarea {
 }
 /* ===== STATE STYLES ======= */
 
+@media (max-width: 768px) {
+
+}
