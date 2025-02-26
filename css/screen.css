@@ -256,6 +256,15 @@ p {
   padding: 0 0 0 10px;
 }
 
+#input-age-verification {
+  display: flex;
+  align-items: center;
+}
+
+[type="checkbox"] {
+  margin: auto;
+}
+
 /* ===== STATE STYLES ======= */
 
 @media (max-width: 768px) {
