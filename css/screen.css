@@ -225,11 +225,18 @@ textarea {
   font-family: "Quicksand", "Helvetica", "Arial", sans-serif; /*Quicksand is being used as my primary font*/
   font-size: 100%;
   line-height: 1.15;
-  margin: 0;
+  margin: 6px 1px;
   width: 100%; /*Making width 100% ensures responsiveness*/
-  background-color: #f7f7f7; /*Grey background for input fields*/
+  background-color: #505050; /*Grey background for input fields*/
   border-radius: 6px; /*Rounded borders makes form look more modern.*/
+  padding: 14px 18px;/*Padding for inputs and buttons*/
+  margin: 0;
 }
+
+button {
+background-color: #989898;
+}
+
 /* ===== STATE STYLES ======= */
 
 @media (max-width: 768px) {
