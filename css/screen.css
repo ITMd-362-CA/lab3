@@ -218,6 +218,7 @@ label {
 form {
   background-color: #787878;
   width: 70%; /*Wanted to have the box not take up the whole screen*/
+  height: 60%;/*Added responsive height for when browser height changes*/
   border-radius: 6px;/*Want the same border radius as my info inside the form*/
   padding: 7px 10px;
   margin: 0 auto;
