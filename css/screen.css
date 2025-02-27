@@ -210,7 +210,7 @@ label {
   text-align: center;
   font-size: 1.5em;
   width: auto;
-  padding: 15px, 5%;
+  padding: 15px 5%;
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -282,5 +282,11 @@ p {
 
   h1 {
     font-size: 2.5em;
+  }
+
+  button,
+  input,
+  textarea {
+    width: 100%;
   }
 }
